@@ -1,0 +1,19 @@
+.nav-wrapper ul li a {
+  font-weight: 600;
+}
+
+.sidenav li a {
+  color: white;
+  font-size: 18px;
+  border-bottom: 1px solid white;
+}
+
+.sidenav {
+  width: 70%;
+}
+
+@media only screen and (min-width: 992px) {
+  .brand-logo {
+    margin-left: 15px;
+  }
+} 
