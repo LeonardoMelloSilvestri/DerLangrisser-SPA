@@ -1,0 +1,35 @@
+.characters {
+  margin-bottom: 20px;
+}
+
+.characters img {
+  height: 180px;
+  margin: 0 auto;
+  position: relative !important;
+}
+
+.characters .row {
+  margin-bottom: 15px;
+}
+
+.character-name {
+  font-size: 30px;
+  margin: 0 0 5px 0;
+  font-weight: 600;
+}
+
+.character-path {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .character-name {
+    text-align: center;
+  }
+}
+
+.character-info {
+  font-size: 18px;
+  margin: 0;
+}
+
