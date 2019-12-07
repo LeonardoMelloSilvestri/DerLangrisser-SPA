@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Gallery from './Gallery';
 import './Home.css';
+import '../../helpers'
+import { backToTop } from '../../helpers';
 
 class Home extends Component {
   componentDidMount() {
@@ -27,7 +29,7 @@ class Home extends Component {
             </div>
             <div className="row custom-container">
               <div className="col s12 m6 l4">
-                <Link to={'/characters'}>
+                <Link onClick={backToTop} to={'/characters'}>
                   <div className="card hoverable">
                     <div className="card-image">
                       <img src={require('../../img/characters.jpg')} />
