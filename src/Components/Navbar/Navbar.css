@@ -1,11 +1,13 @@
 .nav-wrapper ul li a {
   font-weight: 600;
+  font-size: 18px;
 }
 
 .sidenav li a {
   color: white;
   font-size: 18px;
   border-bottom: 1px solid white;
+  cursor: pointer !important;
 }
 
 .sidenav {
@@ -16,4 +18,4 @@
   .brand-logo {
     margin-left: 15px;
   }
-} 
+}
