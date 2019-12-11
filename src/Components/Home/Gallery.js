@@ -5,7 +5,7 @@ const Gallery = () => {
     <>
       <section>
         <div className="gallery custom-container center">
-          <h3 className="">Gallery</h3>
+          <h3 className="orange-text">Gallery</h3>
           <div className="row">
             <div className="col s12 m6 l4">
               <img className="materialboxed responsive-img" src={require('../../img/gallery1.jpg')} />

@@ -24,7 +24,7 @@ class Home extends Component {
         <header className="header-home indigo lighten-2">
           <div className="indigo lighten-2">
             <div className="custom-container center">
-              <span className="header-home-title">Der Langrisser Tutorials</span>
+              <span className="header-home-title orange-text">Der Langrisser Tutorials</span>
               <p className="header-home-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div className="row custom-container">
@@ -43,21 +43,23 @@ class Home extends Component {
                 </Link>
               </div>
               <div className="col s12 m6 l4">
-                <div className="card hoverable">
-                  <div className="card-image">
-                    <img src={require('../../img/itens.jpg')} />
-                    <span className="card-title">Itens</span>
+                <Link onClick={backToTop} to={'/items'}>
+                  <div className="card hoverable">
+                    <div className="card-image">
+                      <img src={require('../../img/itens.jpg')} />
+                      <span className="card-title">Items</span>
+                    </div>
+                    <div className="card-content">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tenetur deleniti maxime repellendus molestiae, aperiam cupiditate ad, soluta nostrum eius in fugiat voluptates explicabo aliquam mollitia saepe eum ex dolores.</p>
+                    </div>
                   </div>
-                  <div className="card-content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tenetur deleniti maxime repellendus molestiae, aperiam cupiditate ad, soluta nostrum eius in fugiat voluptates explicabo aliquam mollitia saepe eum ex dolores.</p>
-                  </div>
-                </div>
+                </Link>
               </div>
               <div className="col s12 l4">
                 <div className="card hoverable">
                   <div className="card-image">
                     <img src={require('../../img/scenarios.jpg')} />
-                    <span className="card-title">Scenarios</span>                    
+                    <span className="card-title">Scenarios</span>
                   </div>
                   <div className="card-content">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tenetur deleniti maxime repellendus molestiae, aperiam cupiditate ad, soluta nostrum eius in fugiat voluptates explicabo aliquam mollitia saepe eum ex dolores.</p>

@@ -1,12 +1,10 @@
 import { combineReducers } from 'redux';
 import charactersReducer from './charactersReducer'
-
-const initState = {
-
-}
+import itemsReducer from './itemsReducer'
 
 const rootReducer = combineReducers({
-  character: charactersReducer
+  character: charactersReducer,
+  item: itemsReducer
 })
 
 export default rootReducer;

@@ -28,7 +28,7 @@ const Characters = ({ characters }) => {
     <div className="custom-container">
       <header className="main-header">
         <div className="center">
-          <h3>Playable Characteres</h3>
+          <h3 className="orange-text">Playable Characteres</h3>
         </div>
       </header>
       <section>

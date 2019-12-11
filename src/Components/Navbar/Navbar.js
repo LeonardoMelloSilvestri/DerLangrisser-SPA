@@ -21,6 +21,7 @@ class Navbar extends Component {
             <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
             <ul className="right hide-on-med-and-down">
               <li><Link to="/characters">Characters</Link></li>
+              <li><Link to="/items">Items</Link></li>
             </ul>
           </div>
         </nav>
@@ -28,6 +29,7 @@ class Navbar extends Component {
         <ul className="sidenav indigo lighten-2" id="mobile-demo">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/characters">Characters</Link></li>
+          <li><Link to="/items">Items</Link></li>
         </ul>
       </>
     )
